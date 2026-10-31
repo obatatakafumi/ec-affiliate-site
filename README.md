@@ -29,7 +29,7 @@ python3 -m http.server 8000
 
 ## ここに無いもの
 
-- 本番の商品選定・価格の根拠・収益データ（EC 事業の分析は別リポジトリ `ec-research` と Obsidian 側）。
+- 本番の商品選定・価格の根拠・収益データ（EC 事業の分析は `claude-code-config/ec-research/` と Obsidian 側）。
 - ビルドツール・テンプレートエンジン・CMS（意図的に素の HTML）。
 - 解析タグ・フォームのバックエンド（`contact.html` は静的な案内のみ）。
 - 個人情報・認証情報（公開リポジトリなので置かない。pre-commit の gitleaks を迂回しない）。
